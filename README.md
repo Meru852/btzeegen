@@ -1,36 +1,36 @@
-# btzeegen
-get privkeys from runnings transaction
 
-Before use must install git, pip, and linux or ubuntu commandprompt 
+# Bitcoin-Key-Compression-Tool
+Get R, S and Z values from Raw Bitcoin Transaction
 
-to use this script : 
+sudo apt install python
 
-For Windows : -install visual code lastes version then connect it with your windows 
+install python 2.7 + Dependencies
 
-For Linux and Ubuntu : use command sudo to use it 
+git clone https://github.com/stateactor/Bitcoin-Key-Compression-Tool.git
 
-Install all pip for the algotrithm such as: 
+cd Bitcoin-Key-Compression-Tool
+
+python RawTX_RSZ.py
 
 
--install python, python2, python3 ;
--python -m install --upgrade pip ;
--pip install PyQt6 ; 
--pip install colorama ;
--pip install base64 ;
--pip install base58 ;
--pip install hash160 ;
--pip install requests ;
--pip install bit ;
--pip install ecdsa ; 
--pip install QDarkStyle ;
--pip install simplebloomfilter ;
--pip install bitarray==1.9.2 ; 
--pip install hdwallet ; 
--pip install mnemonic ; 
--pip install numpy ; 
--pip install keyboard ;  
--pip install pygame ; 
--pip install trotter 
+sudo apt install python-pip
 
-To use in windows : python btzeegen.py > winners.txt
+pip install bitcoin
 
+pip install ecdsa
+
+pip install utils
+
+pip install base58
+
+https://2coin.org/getRSZfromRawTX.html (gone for good)
+
+Videos? you can make them! :)
+
+Bitcoin Key Compression Tool
+https://iancoleman.io/bitcoin-key-compression
+
+
+-----------------------------------------
+
+mail me for paid (working) one maxwells0x0@gmail.com
